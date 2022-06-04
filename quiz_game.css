@@ -1,0 +1,39 @@
+#did{
+    width: 600px;
+    height: 200px;
+    padding: 30px;
+    border-radius: 30px;
+    border: 2px ridge black;
+}
+h1,h2,h3,input{
+    font-family: 'IBM Plex Sans Devanagari', sans-serif !important;
+}
+hr{
+  width: 400px;
+}
+  body{
+background: -webkit-linear-gradient(top left, #845EC2, #D65DB1,#FF6F91,#FF9671,#FFC75F,#F9F871);
+background: -moz-linear-gradient(top left, #845EC2, #D65DB1,#FF6F91,#FF9671,#FFC75F,#F9F871);
+background: linear-gradient(to bottom right, #845EC2, #D65DB1,#FF6F91,#FF9671,#FFC75F,#F9F871);
+  }
+  button{
+      height: 50px;
+      width: 400px;
+      border-radius: 15px;
+      background-color: greenyellow;
+  }
+  #output{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465; 
+    padding: 10px;
+    float: none;
+    text-align: left;
+  }
+  #p1name , #p2name{
+    display: inline-block;
+    margin-left: 20px;
+  }
+  #p1score , #p2score{
+    font-size: 17px;
+  }
